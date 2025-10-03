@@ -1,0 +1,19 @@
+# dependencies
+node_modules
+
+# production build
+.next
+out
+
+# local env vars
+.env.local
+.env.*.local
+
+# testing
+coverage
+
+# TypeScript
+*.tsbuildinfo
+
+# Turbo repo cache (if used with Next.js 13+)
+.turbo
